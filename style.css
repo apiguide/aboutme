@@ -9,7 +9,8 @@
 					}
 			.about{
 					margin:auto;
-					color:orange;
+					color:white;
+					background: black;
 					font-size: 30px;
         			text-align: center;
         			padding: 0px 0px -150px 0px;
@@ -18,8 +19,7 @@
 
 					}
     		#img1{
-    				float: left;
-					margin: 0px;
+    				margin: auto;
     				
     			}
 	
@@ -29,7 +29,7 @@
 					padding-left: 100px;
 					margin: 0px 0px 500px 0px;
 					padding-left: 100px;
-					border-left: 2px solid cyan;
+					border-left: 10px solid cyan;
 
 					}
 			.thanks{
@@ -38,4 +38,7 @@
 			.img-circle{
 				     border-radius: 50%;
 						}
-					
+
+		body{
+		background: black;
+			}
