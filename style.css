@@ -1,4 +1,4 @@
-#Name{
+			#Name{
 					text-align: center;
 					padding-right: 100px;
 					color: teal;
@@ -7,20 +7,20 @@
 					font-family: sans-serif;
 
 					}
-			.about{
-					margin:auto;
-					color:white;
-					background: black;
+			.about,button{
+					margin: auto;
+					color:teal;
+					background: white;
 					font-size: 30px;
         			text-align: center;
-        			padding: 0px 0px -150px 0px;
         			border-bottom:2px solid cyan;
-
-
 					}
     		#img1{
-    				margin: auto;
-    				
+    				margin:0px 0px 0px 450px;
+    				text-align: center;
+    				border-radius: 30%;
+    				height: 300px;
+    				width: 300px;
     			}
 	
 			.content{
@@ -32,13 +32,14 @@
 					border-left: 10px solid cyan;
 
 					}
-			.thanks{
-					 text-align: center;
+				body{
+					background: black;
+				}
+		#icn:hover{color: cyan;
+					height:70px;
+					width: 70px; 
 					}
-			.img-circle{
-				     border-radius: 50%;
-						}
-
-		body{
-		background: black;
-			}
+		a{color: white;text-decoration:none;}
+		#img_bord:hover{border:6px solid white;}
+				
+				
