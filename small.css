@@ -1,0 +1,41 @@
+			#Name{
+					text-align: center;
+					color: teal;
+					font-weight: bold;
+					font-size: 13px;
+					font-family: sans-serif;
+
+					}
+			.about,button{
+					margin: auto;
+					color:teal;
+					background: white;
+					font-size: 7px;
+        			text-align: center;
+        			border-bottom:1px solid cyan;
+					}
+    	#img{
+    				display: block;
+    				margin: 0 auto;
+    				height: 100px;
+    				width: 70px;
+    				border-radius: 25%;
+    			}
+	
+			.content{
+					color:#4CB6D9;
+					font-size: 7px;	
+					border-left: 3px solid cyan;
+					text-align: center;
+					}
+				body{
+					background: black;
+				}
+		#icn:hover{color: cyan;
+					height:18px;
+					width: 18px; 
+					}
+		a{color: white;text-decoration:none;}
+		#img_bord:hover{border:3px solid white;}
+				
+				
