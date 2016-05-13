@@ -1,0 +1,47 @@
+			#Name{
+					text-align: center;
+					color: teal;
+					font-weight: bold;
+					font-size: 30px;
+					font-family: sans-serif;
+					
+					}
+			.about,button{
+					margin: auto;
+					color:teal;
+					background: white;
+					font-size: 20px;
+        			text-align: center;
+        			border-bottom:2px solid cyan;
+					}
+    	#img{
+    				display: block;
+    				margin-left:auto;
+    				height: 300px;
+    				width: 200px;
+    				border-radius: 25%;
+    			}
+	
+			.content{
+					color:#4CB6D9;
+					font-size: 20px;	
+					border-left: 10px solid cyan;
+					text-align: center;
+					}
+				body{
+					background: black;
+				}
+		#icn:hover{color: cyan;
+					height:50px;
+					width: 50px; 
+					}
+		a{color: white;text-decoration:none;}
+		#img_bord:hover{border:6px solid white;}
+					#quote{
+					color: #00CED1; 
+					border-left:4px solid teal; 
+					font-family:comic sans ms;
+					font-size:25px
+				}
+				
+				
