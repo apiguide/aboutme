@@ -1,11 +1,10 @@
 			#Name{
 					text-align: center;
-					padding-right: 100px;
 					color: teal;
 					font-weight: bold;
 					font-size: 45px;
 					font-family: sans-serif;
-
+					
 					}
 			.about,button{
 					margin: auto;
@@ -15,7 +14,7 @@
         			text-align: center;
         			border-bottom:2px solid cyan;
 					}
-    		#img{
+    	#img{
     				display: block;
     				margin: 0 auto;
     				height: 400px;
