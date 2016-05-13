@@ -6,7 +6,7 @@
 					font-family: sans-serif;
 					
 					}
-			.about,button{
+			.about{
 					margin: auto;
 					color:teal;
 					background: white;
@@ -24,7 +24,7 @@
 	
 			.content{
 					color:#4CB6D9;
-					font-size: 35px;	
+					font-size: 45px;	
 					border-left: 10px solid cyan;
 					text-align: center;
 					}
