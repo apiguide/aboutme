@@ -41,7 +41,7 @@ p{
 	margin:0 auto;
 	position: relative;
 }
-#events:hover{
+#evt:hover{
 	background:white;
 	color:#195070;
 	
@@ -58,4 +58,3 @@ h1{
 	font-weight: bold;
 	font-size: 1.5em; 	
 }
-
