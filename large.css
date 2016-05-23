@@ -41,6 +41,10 @@ p{
 	margin:0 auto;
 	position: relative;
 }
+#events:hover{
+	background:white;
+	color:#195070;
+}
 h1{
 	text-align: center;
 	font-size: 3em;
