@@ -16,6 +16,17 @@
 #events{
 	display: none;
 }
+#eventsm{
+	margin:5px;
+	font-size: 1.5em;
+}
+#evts{
+	margin-top:10px;
+}
+#evts:hover{
+	background:white;
+	color:#195070;
+}
 body{
 	background:#202020; 
 	font-family:comic sans ms;
