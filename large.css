@@ -20,7 +20,7 @@ body{
 }
 .timeline{
 	color:white;
-	margin-left: 100px;
+	margin-left: 350px;
 	}
 	p a{
 		color: white;
@@ -45,6 +45,9 @@ p{
 	background:white;
 	color:#195070;
 	
+}
+#evts{
+	display: none;
 }
 h1{
 	text-align: center;
