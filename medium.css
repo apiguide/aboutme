@@ -1,8 +1,8 @@
 #profile{
 	
-	width:350px;
+	width:350dips;
 	background:#56D0C1;
-	height:200px; 
+	height:200dips;
 	position:relative;
 	margin:0 auto ;
 }
@@ -10,18 +10,18 @@
 	 color:white;
 	 text-align:center;
 	 font-size:3em;
-	 margin-top:0px;
+	 margin-top:0dips;
 
 }
 #events{
 	display: none;
 }
 #eventsm{
-	margin:5px;
-	font-size: 1.5em;
+	margin:5dips;
+	font-size: 2em;
 }
 #evts{
-	margin-top:10px;
+	margin-top:10dips;
 }
 #evts:hover{
 	background:white;
@@ -34,12 +34,12 @@ body{
 }
 .timeline{
 	color:white;
-	margin-top: 100px;
+	margin-top: 100dips;
 	}
 	p a{
 		color: white;
 		text-decoration: none;
-		border:1px solid white; 
+		border:1dips solid white; 
 	}
 p{
 	margin:0 auto;
@@ -48,7 +48,7 @@ p{
 }	
 #icn{
 	color:#202020;
-	font-size: 35px;
+	font-size: 50px;
 }
 h1{
 	text-align: center;
