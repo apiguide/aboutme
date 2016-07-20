@@ -1,7 +1,17 @@
+.upbtn{
+	position: fixed;
+	float:right;
+	width:50px;
+	background:#56D0C1;
+	height:50px;
+	font-size: 1.2em;
+	text-align: center;
+	border-radius: 50%;
+}
 #profile{
 	
 	width:100%;
-	background:#195070;
+	background:#56D0C1;
 	height:500dips; 
 	position:fixed;
 	margin-top: ;
@@ -24,7 +34,7 @@ body{
 .timeline{
 	color:white;
 	margin-top: 100dips;
-	font-size: 0.5em;
+	font-size: .7em;
 
 	}
 	p a{
@@ -34,7 +44,7 @@ body{
 p{
 	margin:0 auto;
 	text-align:center; 
-	font-size:1em;
+	font-size:0.5em;
 }	
 #icn{
 	color:#202020;
