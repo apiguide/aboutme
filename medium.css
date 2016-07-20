@@ -1,3 +1,13 @@
+.upbtn{
+	position: fixed;
+	float:right;
+	width:50px;
+	background:#56D0C1;
+	height:50px;
+	font-size: 1.5em;
+	text-align: center;
+	border-radius: 50%;
+}
 #profile{
 	
 	width:100%;
@@ -35,7 +45,7 @@ body{
 .timeline{
 	color:white;
 	margin-top: 100dips;
-	font-size: 16px;
+	font-size: 100dipx;
 	}
 	p a{
 		color: white;
