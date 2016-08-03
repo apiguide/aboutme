@@ -13,7 +13,7 @@
 }
 
 #intro,#edu,#prj,#skl,#int{
-	background-color:#69A55A;
+	background-color:#56D0C1;
 }
 
 img,#proPic{
@@ -25,7 +25,7 @@ img,#proPic{
 #profile{
 	
 	width:100%;
-	background:#69A55A;
+	background:#56D0C1;
 	height:200dips;
 	position:relative;
 	margin:0 auto ;
