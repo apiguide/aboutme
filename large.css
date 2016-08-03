@@ -1,9 +1,13 @@
+
+#intro,#edu,#prj,#skl,#int{
+	background-color:#69A55A;
+}
 #profile{
 	
 	font-family:comic sans ms;
 	float:left;
 	width:320dips;
-	background:#195070;
+	background:#69A55A;
 	height:100%; 
 	position:fixed;
 
@@ -25,8 +29,8 @@ body{
 .timeline{
 	color:white;
 	font-size: 1em;
-	margin-left: 350px;
-	font-family:cursive;
+	margin-left: 300px;
+	font-family:comic sans ms;
 	
 }
 	p a{
@@ -67,4 +71,9 @@ h1{
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.5em; 	
+}
+#proPic{
+	 border-radius:30%; 
+	 height: 8em;
+	 width: 8em;
 }
