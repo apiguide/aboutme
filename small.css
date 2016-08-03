@@ -14,7 +14,7 @@
 #profile{
 	
 	width:100%;
-	background:#69A55A;
+	background:#56D0C1;
 	height:500dips; 
 	position:fixed;
 	margin-top: ;
@@ -29,7 +29,7 @@
 	display: none;
 }
 #intro,#edu,#prj,#skl,#int{
-	background-color:#69A55A;
+	background-color:#56D0C1;
 }
 body{
 	background:#202020; 
