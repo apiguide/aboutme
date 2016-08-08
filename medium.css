@@ -221,7 +221,10 @@ p{
 	text-align:center; 
 	font-size:2em;
 }	
-
+#icn{
+	color:#202020;
+	font-size: 35px;
+}
 h1{
 	text-align: center;
 	font-size: 3em;
