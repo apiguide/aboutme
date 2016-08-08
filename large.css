@@ -1,6 +1,6 @@
 
 #intro,#edu,#prj,#skl,#int{
-	background-color:#56D0C1;
+	background-color:#008080;
 }
 #name  {
   font-size: 3em;
@@ -161,7 +161,7 @@
 	font-family:comic sans ms;
 	float:left;
 	width:320dips;
-	background:#56D0C1;
+	background:#008080;
 	height:100%; 
 	position:fixed;
 
@@ -218,7 +218,7 @@ h1{
 	text-align: center;
 	font-size: 3em;
 }
-#icn:hover{color: cyan;}
+#icn:hover{color: white;}
 #q{
 	color:white;;
 	margin-left: 20dips;
