@@ -1,6 +1,7 @@
 
 #intro,#edu,#prj,#skl,#int{
 	background-color:#008080;
+	color:white;
 }
 #name  {
   font-size: 3em;
@@ -215,9 +216,13 @@ p{
 #evt:hover{
 	background:white;
 	color:#195070;
-	
+	background-color: white;	
 }
-#evts{
+#evt{
+	text-decoration: none;
+	color: white;
+}
+#evts,#eventsm{
 	display: none;
 }
 h1{
