@@ -9,6 +9,10 @@
 	border-radius: 50%;
 }
 
+#evt{
+	color:white;
+	text-decoration:none;
+}
 #name  span {
 	-webkit-transition: all 0.3s linear;
 	-moz-transition: all 0.3s linear;
