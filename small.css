@@ -1,17 +1,4 @@
-.upbtn{
-	position: fixed;
-	float:right;
-	width:50px;
-	color:white;
-	height:50px;
-	font-size: .1em;
-	text-align: center;
-	border-radius: 50%;
-}
-#evt{
-	color:white;
-	text-decoration:none;
-}
+
 #name  span {
 	-webkit-transition: all 0.3s linear;
 	-moz-transition: all 0.3s linear;
@@ -170,14 +157,6 @@
 #mobileHide{
 	display: none;
 }
-#profile{
-	
-	width:100%;
-	background:#56D0C1;
-	height:500dips; 
-	position:fixed;
-	margin-top: ;
-}
 #name{
 	 color:white;
 	 text-align:center;
@@ -215,18 +194,80 @@ p{
 	text-align:center; 
 	font-size:0.5em;
 }	
-#icn{
+#social{
 	color:#202020;
 	font-size: 35px;
 }
+#social:hover{color:white;}
 h1{
 	text-align: center;
 	}
+/* 
+	About Me Starts from here
+*/
+/* Dropdown Button */
+
+button{
+	top:0;
+	opacity: 0.45;
+	width: 100%;
+	border: none;
+}
+button:hover{
+	opacity: 1;
+}
+.dropbtn {
+    background-color: #56D0C1;
+    font-size:1.3em;
+    font-family: cursive; 
+}
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: white;
+    color:#56D0C1;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    background-color : transparent;
+	width: 98%;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    opacity: 0.9;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+/* 
+	About Me Ends here
+*/
 #q{
 	color:white;;
 	margin:0 auto; 
 	font-weight: bold;
 	font-size: 1em; 	
+}
+#evt{
+	text-decoration:none;
+	color:white;
 }
 #eventsm{
 	margin:5dips;
