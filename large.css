@@ -173,7 +173,29 @@
 	position:fixed;
 
 }
-.upbtn{
+#panelskl,#panelprj,#panelint,#paneledu,#sklshow{
+		display: none;
+	}
+#flipintro:hover{
+	color: #f1f1f1;
+}
+
+#flipint:hover{
+	color: #f1f1f1;
+}
+
+#flipprj:hover{
+	color: #f1f1f1;
+}
+
+#flipskl:hover{
+	color: #f1f1f1;
+}
+
+#flipskl:hover{
+	color: #f1f1f1;
+}
+.desktopHide{
 	display: none;
 }
 #name{
@@ -195,9 +217,9 @@ body{
 	
 }
 	p a{
-		color: white;
-		text-decoration: none;
-		border:2px solid white; 
+		color: #56d0c1;
+		text-decoration: none; 
+
 	}
 p{
 	margin:0 auto;
@@ -209,22 +231,7 @@ p{
 	margin-left: 5dips;
 	font-size: 40px;
 }
-#events{
-	margin:0 auto;
-	position: relative;
-}
-#evt:hover{
-	background:white;
-	color:#195070;
-	background-color: white;	
-}
-#evt{
-	text-decoration: none;
-	color: white;
-}
-#evts,#eventsm{
-	display: none;
-}
+
 h1{
 	text-align: center;
 	font-size: 3em;
