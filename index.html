@@ -1,24 +1,13 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
-	<!--PC View-->
-	<link rel="stylesheet" type="text/css"  media="screen and (min-width: 1000px)" href="large.css">
-	<!--SiteVersion Beta:4.0-->
+	<!--SiteVersion :5.0-->
 	<!---Author : Smith Bhojak-->
 	<meta name="author" content="Smith Bhojak">
 	<meta name="keyword" content="Smith bhojak,bhojak,smith,sbhojak">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=no">
 	<title>Smith Bhojak</title>
 </head>
-<script type="text/javascript">
-  		<!--
-  		if (screen.width <= 800) {
-		 window.location = "https://bhojaksmith.github.io/aboutmeMobile/";
-  		}
-  	//-->
-	</script>
 <body>
 <div id="name" style="text-align:center;" id="name" class="desktopHide">
 	<span>S</span><span>m</span><span>i</span><span>t</span><span>h</span>
@@ -44,9 +33,9 @@
  	 	<a href="http://www.github.com/bhojaksmith" title="Github"><i class="fa fa-github" id="icn"> </i></a> 
 	</div>	
 	<br><br>
-			<h1 id="intro"  style="font-size:2.5em;float:left;color:#202020;">
+				<h1 id="intro"  style="font-size:2.5em;float:left;color:#202020;">
 				<div id="flipintro">About Me:</div>
-		</h1>		
+		</h1>	
 <br><br>
 			<h1 id="skl" style="font-size:2.5em;float:left;color:#202020;" id="social" id="icn">
 				<div id="flipskl">
@@ -82,16 +71,16 @@
 		  
 		<h1 >Timeline</h1>			
 			<div id="intro"></div>
-
-			<div id="panelintro"><p>
-			<img src="http://imgur.com/z9ec0Ul.jpg" alt="Smith" id="proPic" style="height:240px ;width:180px;">
-			<br> 
-				</h1>
-			<h1 id="intro"  style="font-size:3.5em;color:#56D0C1;" class="desktopHide">
-				<div id="flipintro">About Me:</div>
+			<h1 id="intro"  style="font-size:3.5em;color:#56D0C1;">
+				<div id="fintro">About Me:</div>
 				</a>
 			</h1>
 
+			<div id="panelintro">
+			<p>
+			<img src="http://imgur.com/z9ec0Ul.jpg" alt="Smith" id="proPic" style="height:240px ;width:180px;border-radius:25% ; ">
+			<br> 
+				</h1>
 			<p style="font-size:2.3em;">
 				Hey guys my name is <a href="https://about.me/bhojaksmith">Smith Bhojak</a>  I am born and brought up in an awesome country "<a href="https://en.wikipedia.org/wiki/India">India</a>".
 				I  love new tech and tech appliances also, love cooking as a side hobby apart from  Programming :)
@@ -144,9 +133,39 @@
 					I finished  my  Secondary  <a href="http://www.bapsschool.com/"> <i>School</i> </a> in 2014 and Joined Diploma   In Computer Science in a <a href="http://www.ljinstitutes.org/"> Polytechnic </a> and  learning a lot of new things and finding  new Interests
 			</p> 
 			</div>
+			<div id="fskl">
+			<h1 id="skl" style="width:50%;float:left;color:#56D0C1;">
+				<a>
+				<i class="fa fa-pencil" aria-hidden="true" id="social" id="skl" style="text-align:center"></i><br>
+				Skills
+				</a>
+			</h1>
+			</div>
+			<div id="fprj">
+				<h1 id="prj" style="width:50%;float:left;color:#56D0C1;">
+				<a>
+				<i class="fa fa-folder-open" aria-hidden="true" id="social" id="prj" style="text-align:center"></i><br>
+				Projects
+				</a>	
+				</h1> 
+			</div>  
+			<div id="fint">
+			<h1  id="int" style="width:50%;float:left;color:#56D0C1;">
+				<a>
+				<i class="fa fa-heart" aria-hidden="true" id="social" id="int" style="text-align:center" ></i><br>
+				Interests
+				</a>
+			</h1>
+			</div>
+			<div id="fedu">
+			<h1 id="edu" style="width:50%;float:left;color:#56D0C1;">
+				<a>
+				<i class="fa fa-book" aria-hidden="true" id="social" id="edu" style="text-align:center"></i><br>Education
+				</a>
+			</h1>			
+   			</div>
 	<div id="disqus_thread"></div>
 <script>
-
 /**
  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
@@ -164,18 +183,41 @@ var disqus_config = function () {
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                                    
+ 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<!--PC View-->
+	<link rel="stylesheet" type="text/css"  media="screen and (min-width: 1000px)" href="large.css">
+	<!--Mobile View-->
+	<link rel="stylesheet" type="text/css"  media="screen and (max-width: 500px)"  href="small.css">
+	<!--Wide View-->
+	<link rel="stylesheet" type="text/css"  media="screen and (max-width:999px)"  href="medium.css">
+	<style type="text/css">
+	#panelskl,#panelprj,#panelint,#paneledu,#sklshow{
+		display: none;
+	}
+	</style>
+	<script type="text/javascript">
+function downloadJSAtOnload() {
+var element = document.createElement("script");
+element.src = "script.js";
+document.body.appendChild(element);
+}
+if (window.addEventListener)
+window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script>
+
+                             
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>
-
-
 $(document).ready(function(){
     $("#flipintro").click(function(){
         $("#panelintro").toggle("slow"); 
     });
 });
-
-
 $(document).ready(function(){
     $("#flipintro").click(function(){
         $("#panelprj").hide();
@@ -297,10 +339,140 @@ $(document).ready(function(){
        $("#panelprj").hide();
     });
 });
+
+
+
+
+
+$(document).ready(function(){
+    $("#fintro").click(function(){
+        $("#panelintro").toggle("slow"); 
+    });
+});
+
+
+$(document).ready(function(){
+    $("#fintro").click(function(){
+        $("#panelprj").hide();
+    });
+});
+$(document).ready(function(){
+    $("#fintro").click(function(){
+        $("#paneledu").hide();
+    });
+});
+$(document).ready(function(){
+    $("#fintro").click(function(){
+       $("#panelskl").hide();
+    });
+});
+$(document).ready(function(){
+    $("#fintro").click(function(){
+        $("#panelint").hide();
+    });
+});
+$(document).ready(function(){
+    $("#fint").click(function(){
+        $("#panelint").toggle("slow");
+    });
+});
+$(document).ready(function(){
+    $("#fskl").click(function(){
+        $("#panelskl").toggle("slow");
+    });
+});
+$(document).ready(function(){
+    $("#fskl").click(function(){
+        $("#panelintro").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#fskl").click(function(){
+        $("#panelprj").hide();
+    });
+});
+$(document).ready(function(){
+    $("#fskl").click(function(){
+        $("#panelint").hide();
+    });
+});
+$(document).ready(function(){
+    $("#fskl").click(function(){
+        $("#paneledu").hide();
+    });
+});
+$(document).ready(function(){
+    $("#fprj").click(function(){
+        $("#panelprj").toggle("slow"); 
+    });
+});
+$(document).ready(function(){
+    $("#fprj").click(function(){
+        $("#panelintro").hide();
+    });
+});
+$(document).ready(function(){
+    $("#fprj").click(function(){
+        $("#panelskl").hide();
+    });
+});
+$(document).ready(function(){
+    $("#fprj").click(function(){
+        $("#panelint").hide();
+    });
+});
+$(document).ready(function(){
+    $("#fprj").click(function(){
+        $("#paneledu").hide();
+    });
+});
+$(document).ready(function(){
+    $("#fint").click(function(){
+        $("#panelintro").hide();
+    });
+});
+$(document).ready(function(){
+    $("#fint").click(function(){
+        $("#panelskl").hide();
+    });
+});
+$(document).ready(function(){
+    $("#fint").click(function(){
+        $("#panelprj").hide();
+    });
+});
+$(document).ready(function(){
+    $("#fint").click(function(){
+        $("#paneledu").hide();
+    });
+});
+$(document).ready(function(){
+    $("#fedu").click(function(){
+        $("#paneledu").toggle("slow"); 
+    });
+});
+$(document).ready(function(){
+    $("#fedu").click(function(){
+        $("#panelintro").hide();
+    });
+});
+$(document).ready(function(){
+    $("#fedu").click(function(){
+        $("#panelint").hide();
+    });
+});
+$(document).ready(function(){
+    $("#fedu").click(function(){
+        $("#panelskl").hide();
+    });
+});
+$(document).ready(function(){
+    $("#fedu").click(function(){
+       $("#panelprj").hide();
+    });
+});	
 </script>
-<style type="text/css">
-	
-</style>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<!--PC View-->
