@@ -197,6 +197,10 @@ i{
 		color: #56D0C1;
 		text-decoration: none;
 	}
+	 a:hover{
+		color: #202020;
+		text-decoration: line-through ; 
+	}
 p{
 	margin:0 auto;
 	text-align:center; 
@@ -210,6 +214,6 @@ h1{
 
 #icn{
 	color:#56D0C1;
-	font-size: 50px;
+	font-size: 2.3rem;
 }
 #icn:hover{color:#202020;}
