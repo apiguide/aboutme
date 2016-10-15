@@ -211,7 +211,9 @@
 	 margin-top:35dips;
 
 }
-
+#fintro{
+	display: none;
+}
 body{
 	background:#202020; 
 
@@ -220,11 +222,11 @@ body{
 	color:#f1f1f1;
 	font-size: .78em;
 	margin-left: 300px;
-	font-family:comic sans ms;
+	font-family:arial;
 	
 }
 	p a{
-		color: #f1f1f1;
+		color: #56d0c1;
 		text-decoration: none; 
 
 	}
