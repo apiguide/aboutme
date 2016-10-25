@@ -6,6 +6,7 @@
   font-size: 3em;
   color:#46A7A2;
   white-space: nowrap;
+  font-style: cursive; 
 }
 
 	#name  span {
@@ -157,20 +158,19 @@
 	 }
 	}
 #profile{
-	
-	font-family:'comic sans ms';
-	float:left;
+
 	font-size:.85em;
-	background:#008080;
+	background:#202020;
+	padding: 1em;
 	position:fixed;
-	top:0;
+	right:0;
 	left:0;
-	bottom:0;
-	width:15rem;
+	top:0;
+	width:100%;
 	text-align:left;
 	padding: 0rem 2rem ;
 	position:fixed;
-
+	
 }
 #panelskl,#panelprj,#panelint,#paneledu,#sklshow{
 		display: none;
@@ -179,49 +179,75 @@
 		display: none;
 	}
 #flipintro:hover{
-	color: #f1f1f1;
+	
+	border: 1px solid #202020;
+	color: #202020;
+	background: #f1f1f1;
+	cursor: pointer; 
 }
 
 #flipint:hover{
-	color: #f1f1f1;
+	
+	border: 1px solid #202020;
+	color: #202020;
+	background: #f1f1f1;
+	cursor: pointer; 
 }
 
 #flipprj:hover{
-	color: #f1f1f1;
+	
+	border: 1px solid #202020;
+	color: #202020;
+	background: #f1f1f1;
+	cursor: pointer; 
 }
-
 #flipskl:hover{
-	color: #f1f1f1;
-}
-
-#flipskl:hover{
-	color: #f1f1f1;
+	
+	border: 1px solid #202020;
+	color: #202020;
+	background: #f1f1f1;
+	cursor: pointer; 
 }
 #flipedu:hover{
-	color:#f1f1f1;
+	
+	border: 1px solid #202020;
+	color: #202020;
+	background: #f1f1f1;
+	cursor: pointer; 
 }
 .desktopHide{
 	display: none;
+}
+#flipedu,#flipskl,#flipprj,#flipint,#flipint,#flipintro{
+	 border:1px solid #f1f1f1; 
+	 font-size: 1em;
+	 padding: 8px;
+	 margin: 18px;
+	 margin-right: 40px;
+
 }
 #name{
 	 color:#f1f1f1;
 	 text-align:center;
 	 font-size:3em;
-	 margin-top:35dips;
+	 font-style: cursive;
 
 }
 #fintro{
 	display: none;
 }
 body{
-	background:#202020; 
+	background:#f1f1f1; 
+	font-style:helvetica;
 
 }
 .timeline{
-	color:#f1f1f1;
+	margin-top:12rem; 
+	color:#202020;
 	font-size: .78em;
-	margin-left: 300px;
-	font-family:arial;
+	text-align: center;
+	
+	font-family:helvetica;
 	
 }
 	p a{
@@ -236,15 +262,17 @@ p{
 }	
 #icn{
 	color:#202020;
-	margin-left: 5dips;
+	text-align: center;
 	font-size: 40px;
+	bottom: 0;
+	
 }
 
 h1{
 	text-align: center;
 	font-size: 3em;
 }
-#icn:hover{color: #f1f1f1;}
+#icn:hover{font-size: 46px}
 #q{
 	color:white;;
 	margin-left: 20dips;
