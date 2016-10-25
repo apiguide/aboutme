@@ -220,10 +220,9 @@
 }
 #flipedu,#flipskl,#flipprj,#flipint,#flipint,#flipintro{
 	 border:1px solid #f1f1f1; 
-	 font-size: 1em;
-	 padding: 8px;
+	 padding: 7px;
 	 margin: 18px;
-	 margin-right: 40px;
+	 margin-right: 36px;
 
 }
 #name{
