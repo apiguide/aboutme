@@ -169,7 +169,7 @@
 	width:100%;
 	text-align:left;
 	padding: 0rem 2rem ;
-	position:fixed;
+	
 	
 }
 #panelskl,#panelprj,#panelint,#paneledu,#sklshow{
@@ -220,10 +220,10 @@
 }
 #flipedu,#flipskl,#flipprj,#flipint,#flipint,#flipintro{
 	 border:1px solid #f1f1f1; 
-	 padding: 7px;
+	 font-size: 1em;
+	 padding: 8px;
 	 margin: 18px;
-	 font-size:.80em;
-	 margin-right: 42px;
+	 margin-right: 40px;
 
 }
 #name{
@@ -246,7 +246,8 @@ body{
 	color:#202020;
 	font-size: .78em;
 	text-align: center;
-	
+	padding-right: 25%;
+	padding-left: 25%;
 	font-family:helvetica;
 	
 }
