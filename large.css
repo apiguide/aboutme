@@ -2,12 +2,13 @@
 #intro,#edu,#prj,#skl,#int{
 	color:#f1f1f1;
 }
-#name  {
+#name{
 padding:0px 25% 0px 25%; 
   font-size: 3em;
   color:#46A7A2;
   white-space: nowrap;
-  font-style: cursive; 
+font-family: 'Indie Flower', cursive;
+
 }
 
 	#name  span {
@@ -200,7 +201,7 @@ padding:0px 25% 0px 25%;
 	 color:#f1f1f1;
 	 text-align:center;
 	 font-size:3em;
-	 font-style: cursive;
+
 
 }
 #fintro{
