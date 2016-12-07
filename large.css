@@ -1,4 +1,3 @@
-
 #intro,#edu,#prj,#skl,#int{
 	color:#f1f1f1;
 }
@@ -163,14 +162,14 @@ font-family: 'Montserrat', sans-serif;
 
 	font-size:.85em;
 	background:#202020;
-	right:0;
 	left:0;
 	position:fixed;
 	top:0;
 	width:100%;
 	margin:auto;
-	text-align:right;
-	padding: 0rem 2rem ;
+	text-align:center;
+	padding-right: 10%;
+	padding-left: 10%;
 	
 	
 }
@@ -195,10 +194,14 @@ font-family: 'Montserrat', sans-serif;
 	 padding-right: 40px; 
 	 margin-right: 15px;
 	 text-align:right;
-	 
+	 color:#929ca3;	 
+}
+#flipedu::after,#flipskl::after,#flipprj::after,#flipint::after,#flipint::after,#flipintro::after{
+	color: white;
 }
 #name{
 	 color:#f1f1f1;
+	 margin-right: 18%; 
 	 text-align:center;
 	 font-size:3em;
 
@@ -214,7 +217,7 @@ body{
 }
 .timeline{
 	margin-top:8rem; 
-	color:#202020;
+	color:#929ca3;
 	font-size: .78em;
 	text-align: center;
 	padding-right: 25%;
@@ -249,16 +252,14 @@ h1{
 	text-align: center;
 	font-size: 3em;
 }
-#icn:hover{font-size: 46px}
+#icn:hover{font-size: 42px}
 #q{
-	color:white;;
-	margin-left: 20dips;
+	color:white;
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.5em; 	
 }
-#proPic{
-	 border-radius:30%; 
-	 height: 8em;
-	 width: 8em;
+#proPic{ 
+	 height: 10em;
+	 width: 40em;
 }
