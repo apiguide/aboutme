@@ -157,9 +157,9 @@
 	}
 #profile{
 
-	font-size:.6em;
+	font-size:.75em;
 	background:#202020;
-	position:relative;
+	position:fixed;
 	top:0;
 	right: 0;
 	left: 0;
