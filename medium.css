@@ -1,5 +1,6 @@
 
 
+
 .mobileHide{
 	display: none;
 }
@@ -157,14 +158,14 @@
 	
 	width:100%;
 	background:;
-	height:200dips;
+	height:200dipx;
 	position:relative;
 	margin:0 auto ;
 }
 #name{
 	 color:#56D0C1;
 	 text-align:center;
-	 font-size:3em;
+	 font-size:2.5em;
 	 margin-top:0;
 	 font-family: 'Pacifico', cursive;
 
@@ -179,7 +180,7 @@ body{
 	margin-top: 100dips;
 	font-size: .56em;
 	font-weight:bold;
-font-family: 'Josefin Sans', sans-serif;
+font-family: 'Reem Kufi', sans-serif;
 	}
 
 #panelskl,#panelprj,#panelint,#paneledu,#sklshow{
@@ -214,6 +215,10 @@ h1{
 }
 #icn{
 	color:#56D0C1;
-	font-size: 2.3rem;
+	font-size: 2rem;
 }
 #icn:hover{color:#202020;}
+#fedu,#fskl,#fprj,#fint,#fint,#fintro{
+	
+	font-size:.68em ;
+}
