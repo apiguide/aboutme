@@ -1,3 +1,9 @@
+
+
+
+.mobileHide{
+	display: none;
+}
 #name{
 	 color:#56D0C1;
 	 text-align:center;
@@ -19,9 +25,9 @@ body{
 .timeline{
 	color:#929ca3;
 	margin-top: 100;
-	font-size: .6em;
+	font-size: .4em;
 	font-weight:bold;
-	font-family: 'Josefin Sans', sans-serif;
+font-family: 'Reem Kufi', sans-serif;
 	}
 p a{
 		color: #56D0C1;
@@ -53,3 +59,7 @@ h1{
 #panelskl,#panelprj,#panelint,#paneledu,#sklshow{
 		display: none;
 	}
+#fedu,#fskl,#fprj,#fint,#fint,#fintro{
+	
+font-size:.68em ;
+}
